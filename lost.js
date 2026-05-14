@@ -60,17 +60,17 @@ export default function Lost() {
 
   return (
 
-    // 🔥 MAIN FULL SCREEN
+    
     <View style={{ flex: 1, backgroundColor: '#EEF2FF' }}>
 
-      {/* 🔥 CENTER FIX */}
+      
       <View style={{
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center'
       }}>
 
-        {/* 🔥 WIDTH CONTROL */}
+        
         <View style={{ width: '100%', maxWidth: 400 }}>
 
           {/* HEADER */}
