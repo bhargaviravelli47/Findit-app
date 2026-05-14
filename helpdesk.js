@@ -13,7 +13,7 @@ export default function Helpdesk() {
     loadData();
   }, []);
 
-  // 📦 LOAD DATA
+  
   const loadData = async () => {
     const found = await AsyncStorage.getItem('foundItems');
     const lost = await AsyncStorage.getItem('lostItems');
@@ -22,7 +22,7 @@ export default function Helpdesk() {
     setLostData(lost ? JSON.parse(lost) : []);
   };
 
-  // 🔍 SEARCH FILTER
+  
   const filteredLost = lostData.filter(i =>
     i.item.toLowerCase().includes(search.toLowerCase())
   );
@@ -31,7 +31,7 @@ export default function Helpdesk() {
     i.item.toLowerCase().includes(search.toLowerCase())
   );
 
-  // 🤝 MATCH CHECK
+  
   const isSimilar = (a, b) => {
     const t1 = a.toLowerCase();
     const t2 = b.toLowerCase();
