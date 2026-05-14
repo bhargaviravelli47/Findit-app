@@ -15,7 +15,7 @@ export default function Found() {
   const [date, setDate] = useState('');
   const [image, setImage] = useState(null);
 
-  // 📸 IMAGE PICK
+  
   const pickImage = async () => {
     let result = await ImagePicker.launchImageLibraryAsync({
       mediaTypes: ImagePicker.MediaTypeOptions.Images,
@@ -27,7 +27,7 @@ export default function Found() {
     }
   };
 
-  // ✅ SUBMIT
+  
   const handleSubmit = async () => {
 
     if (!item || !description || !location || !date) {
@@ -63,17 +63,17 @@ export default function Found() {
 
   return (
 
-    // 🔥 FULL SCREEN
+    
     <View style={{ flex: 1, backgroundColor: '#EEF2FF' }}>
 
-      {/* 🔥 CENTER FIX */}
+      
       <View style={{
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center'
       }}>
 
-        {/* 🔥 WIDTH CONTROL */}
+        
         <View style={{ width: '100%', maxWidth: 400 }}>
 
           {/* HEADER */}
