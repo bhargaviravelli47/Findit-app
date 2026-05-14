@@ -1,6 +1,6 @@
 export const styles = {
 
-  // 🔹 Center container (Login, Signup, Success)
+  
   centerContainer: {
     flex: 1,
     justifyContent: 'center',
@@ -15,7 +15,7 @@ export const styles = {
   alignSelf: 'center',
 },
 
-  // 🔹 Normal container (Home, Helpdesk, Forms)
+  
   container: {
     flex: 1,
     backgroundColor: '#F5F7FA',
@@ -26,9 +26,9 @@ export const styles = {
   flex: 1,
   justifyContent: 'center',
   alignItems: 'center',
-},
+}
 
-  // 🔹 Header box
+    
   header: {
     width: '100%',
     backgroundColor: '#4F46E5',
@@ -39,14 +39,14 @@ export const styles = {
     elevation: 4,
   },
 
-  // 🔹 Title text
+  
   title: {
     fontSize: 24,
     color: 'white',
     fontWeight: 'bold',
   },
 
-  // 🔹 Card (white box)
+  
   card: {
     width: '100%',
     backgroundColor: '#FFFFFF',
@@ -56,7 +56,7 @@ export const styles = {
     elevation: 3,
   },
 
-  // 🔹 Input fields
+  
   input: {
     width: '100%',
     borderWidth: 1,
@@ -67,7 +67,7 @@ export const styles = {
     backgroundColor: '#FAFAFA',
   },
 
-  // 🔹 Buttons
+
   button: {
     width: '100%',
     backgroundColor: '#4F46E5',
@@ -76,7 +76,7 @@ export const styles = {
     marginTop: 10,
   },
 
-  // 🔹 Button text
+  
   buttonText: {
     textAlign: 'center',
     color: 'white',
